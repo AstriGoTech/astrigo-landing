@@ -22,38 +22,18 @@
             padding: 20px;
         }
         
-        /* Huvudlogon AstriGo */
-        .logo-main {
-            font-size: 5rem; 
-            font-weight: 700;
-            letter-spacing: -2px;
-            margin: 0;
-            line-height: 1;
-        }
-        
-        /* Den vita delen "Astri" */
-        .logo-white {
-            color: #ffffff;
-        }
-        
-        /* Den grönblå toningen på "Go" */
-        .logo-gradient {
-            background: linear-gradient(to bottom, #a3e635 0%, #22c55e 40%, #0284c7 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            display: inline-block;
-        }
-        
-        /* Undertexten TECH SOLUTIONS */
-        .logo-sub {
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: #ffffff;
-            text-transform: uppercase;
-            letter-spacing: 11px; /* Skapar det utspridda, moderna utseendet */
-            margin-top: 12px;
+        /* Den nya behållaren för din bildlogotyp */
+        .logo-container {
+            margin-top: 10px;
             margin-bottom: 40px;
-            padding-left: 11px; 
+        }
+
+        .logo-img {
+            max-width: 100%;  /* Gör att loggan skalar ner på mobiler */
+            width: 450px;     /* Justera denna siffra för att göra loggan större eller mindre */
+            height: auto;
+            display: block;
+            margin: 0 auto;
         }
         
         /* Din ursprungliga text */
@@ -80,12 +60,10 @@
     <div class="container">
         <div class="badge">Under utveckling</div>
         
-        <!-- Din nya logotyp uppbyggd i CSS -->
-        <div class="logo-main">
-            <span class="logo-white">Astri</span><span class="logo-gradient">Go</span>
+        <div class="logo-container">
+            <img src="AstriGo_Logo_B.png" alt="AstriGo Tech Solutions" class="logo-img">
         </div>
-        <div class="logo-sub">Tech Solutions</div>
-        
+       
         <!-- Din ursprungliga text -->
         <p>Vi bygger nästa generations digitala lösningar. Landningssidan är under konstruktion och öppnar snart.</p>
         <p style="margin-top: 25px; font-size: 14px; opacity: 0.9;">
