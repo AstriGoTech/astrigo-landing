@@ -3,69 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AstriGo Tech Solutions</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e293b); /* Din mörkblå toning */
-            color: #f8fafc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            padding: 20px;
-        }
-        
-        /* Den nya behållaren för din bildlogotyp */
-        .logo-container {
-            margin-top: 10px;
-            margin-bottom: 40px;
-        }
-
-        .logo-img {
-            max-width: 100%;  /* Gör att loggan skalar ner på mobiler */
-            width: 450px;     /* Justera denna siffra för att göra loggan större eller mindre */
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        
-        /* Din ursprungliga text */
-        p {
-            font-size: 1.2rem;
-            color: #94a3b8;
-            margin-bottom: 0;
-            line-height: 1.6;
-        }
-        
-        .badge {
-            background-color: #1e293b;
-            border: 1px solid #334155;
-            padding: 8px 16px;
-            border-radius: 9999px;
-            font-size: 0.9rem;
-            display: inline-block;
-            margin-bottom: 25px;
-            color: #f8fafc;
-        }
-    </style>
+    <title>AstriGo Tech & Business — Under utveckling</title>
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
-    <div class="container">
-        <div class="badge">Under utveckling</div>
+
+    <main class="launch-container">
         
+        <!-- Den pulserande "Under utveckling"-taggen -->
+        <div class="badge-container">
+            <span class="badge-pulse">Under utveckling</span>
+        </div>
+
         <div class="logo-container">
-            <img src="AstriGo_Logo_B.png" alt="AstriGo Tech Solutions" class="logo-img">
+            <img src="assets/astrigo_logo_B.svg" alt="AstriGo Tech & Business" class="main-logo">
+        </div>
+
+        <!-- Maskoten Astri och hennes 3D-skugga -->
+        <div class="astri-wrapper">
+            <img src="assets/astri_base.png" alt="Maskoten Astri" class="astri-character">
+            <div class="astri-shadow"></div>
         </div>
        
         <!-- Din ursprungliga text -->
-        <p>Vi bygger nästa generations digitala lösningar. Landningssidan är under konstruktion och öppnar snart.</p>
+        <p class="text-muted">
+            Vi bygger nästa generations digitala och administrativa lösningar. 
+            Landningssidan är under konstruktion och öppnar snart.</p>
         <p style="margin-top: 25px; font-size: 14px; opacity: 0.9;">
         ✉️ Kontakta oss: <a href="mailto:info@astrigo.se" style="color: #fff; text-decoration: underline;">info@astrigo.se</a>
        </p>
