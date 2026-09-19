@@ -68,7 +68,6 @@ body {
   height: auto;
   z-index: 2;
   animation: floatCharacter 7s infinite ease-in-out;
-  filter: invert(0.85) hue-rotate(180deg) brightness(1.2); 
 }
 
 .astri-shadow {
