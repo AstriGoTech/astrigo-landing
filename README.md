@@ -10,4 +10,4 @@ Detta är kodbasen för den officiella landningssidan för **AstriGo** (astrigo.
 Sidan är live och driftsätts automatiskt via **Vercel** vid varje push till `main`-branchen.
 
 ---
-© 2026 AstriGo Tech Solutions. All rights reserved.
+© 2026 AstriGo Tech & Business. All rights reserved.
